@@ -1,0 +1,23 @@
+{
+  "name": "sink-the-battleship",
+  "version": "1.0.0",
+  "description": "A JavaScript game for my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-plugin": "^1.0.5"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.1"
+  }
+}
